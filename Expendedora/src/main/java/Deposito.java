@@ -1,18 +1,18 @@
 import java.util.ArrayList;
 
 public class Deposito<T> {
-    private ArrayList<T> productos;
+    private ArrayList<T> dep;
     public Deposito() {
-        productos = new ArrayList();
+        dep = new ArrayList();
     }
 
     public void addProducto(T Producto) {
-        productos.add(Producto);
+        dep.add(Producto);
     }
 
     public T getProducto() {
-        if (productos.size() != 0)
-            return productos.get(0);
+        if (dep.size() != 0)
+            return dep.get(0);
         else
             return null;
     }
