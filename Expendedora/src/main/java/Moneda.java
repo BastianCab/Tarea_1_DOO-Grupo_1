@@ -1,8 +1,6 @@
 /**
  * Representa a una moneda cualquiera usada para comprar un producto en la máquina
  * expendedora, define los comportamientos base de cualquier moneda.
- * @author Bastian, Laura y Ricardo
- * @version 1.0
  */
 public abstract class Moneda implements Comparable<Moneda> {
 

@@ -1,8 +1,6 @@
 /**
  * Representa a una moneda cuyo valor es de 100. Extiende el funcionamiento de
  * {@link Moneda} para modelar los valores específicos de las monedas.
- * @author Bastian, Laura y Ricardo
- * @version 1.0
  */
 public class Moneda100 extends Moneda {
     /**
