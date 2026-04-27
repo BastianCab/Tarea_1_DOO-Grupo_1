@@ -31,6 +31,7 @@ public abstract class Moneda implements Comparable<Moneda> {
      */
     @Override
     public String toString() {
-        return "Valor moneda: " + this.getValor() + "Serie: " + this;
+        String direccion = super.toString();
+        return "Valor moneda: " + this.getValor() + "\n" + "Serie: " + direccion;
     }
 }
