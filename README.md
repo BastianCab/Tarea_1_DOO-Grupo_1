@@ -1,1 +1,5 @@
-# Tarea_1_DOO-Grupo_1
+# Tarea 1 - Grupo 1 - DOO
+Integrantes:
+Bastián Cabezas
+Laura Mardones
+Ricardo Lagos
