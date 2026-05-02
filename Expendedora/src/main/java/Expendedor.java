@@ -24,11 +24,11 @@ public class Expendedor {
         this.depSuper8s = new Deposito<Super8>();
         this.depMonedasVuelto = new Deposito<Moneda>();
         for(int i = 0; i < llenarDepositos; i++){
-            this.depCocaCola.addProducto(new CocaCola());
-            this.depSprite.addProducto(new Sprite());
-            this.depFanta.addProducto(new Fanta());
-            this.depSnickers.addProducto(new Snickers());
-            this.depSuper8s.addProducto(new Super8());
+            this.depCocaCola.addProducto(new CocaCola(i));
+            this.depSprite.addProducto(new Sprite(i));
+            this.depFanta.addProducto(new Fanta(i));
+            this.depSnickers.addProducto(new Snickers(i));
+            this.depSuper8s.addProducto(new Super8(i));
         }
     }
 
