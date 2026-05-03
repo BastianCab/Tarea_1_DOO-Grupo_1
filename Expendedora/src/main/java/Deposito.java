@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-
 /**
  * Representa a un depósito genérico de la máquina expendedora, donde se almacenarán
  * las monedas y los productos por separado.
@@ -30,7 +29,7 @@ public class Deposito<T> {
      */
     public T getProducto() {
         if (dep.size() != 0)
-            return dep.get(0);
+            return dep.remove(0);
         else
             return null;
     }

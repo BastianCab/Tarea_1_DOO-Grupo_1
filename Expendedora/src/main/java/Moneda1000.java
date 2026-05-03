@@ -3,6 +3,9 @@
  * {@link Moneda} para modelar los valores específicos de las monedas.
  */
 public class Moneda1000 extends Moneda {
+    public Moneda1000() {
+        super();
+    }
     /**
      * {@inheritDoc}
      * <p>

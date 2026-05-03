@@ -3,7 +3,7 @@
  * expendedora, define los comportamientos base de cualquier moneda.
  */
 public abstract class Moneda implements Comparable<Moneda> {
-
+    public Moneda() {}
     /**
      * Todas las subclases debe implementarlo para saber el valor de la moneda
      * @return El valor de la moneda actual
@@ -31,7 +31,6 @@ public abstract class Moneda implements Comparable<Moneda> {
      */
     @Override
     public String toString() {
-        String direccion = super.toString();
-        return "Valor moneda: " + this.getValor() + "\n" + "Serie: " + direccion;
+        return "Valor moneda: " + this.getValor();
     }
 }
